@@ -51,7 +51,7 @@ boxes.forEach ((box) =>{
             turnO=false;
         }else{
             box.innerHTML="X";
-            turnO=true;
+            turnO=true; 
         }
 
         box.disabled=true;
