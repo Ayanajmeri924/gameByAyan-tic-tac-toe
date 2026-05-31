@@ -79,7 +79,7 @@ h1{
     background-color:black;
     color:white;
 
-    font-size:1rem;
+    font-size:2rem;
 
     cursor:pointer;
 }
@@ -105,11 +105,16 @@ h1{
 }
 
 #msg{
+    height:70vmin;
+    width:100vmin;
     color:white;
-    font-size:4rem;
+    font-size:3rem;
     font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.hide{
+.hide{ 
     display:none;
 }
